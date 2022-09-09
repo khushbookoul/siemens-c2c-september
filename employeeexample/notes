@@ -1,0 +1,34 @@
+1--->Encapsulation : i)  A class must be independent & self-sufficient
+                ii) A class must ensure all its methods are directly or indirectly
+                    associated with data members (binding)
+
+Achieved by :   By creating a class & instantiating it with objects
+
+Effect : All functionalities & data encapsulated in the class must be 
+        accessible only by instances of that class
+
+
+2---->Polymorphism : the ability to do something in multiple ways!!!!
+
+Achieved by : By using method overloading & overriding
+
+Effect : You can use SOMETHING in multiple different ways in different situations
+
+
+3---->Abstraction : Hiding irrelevant or unnecessary details
+
+Achieved by : By creating abstract class (partial) and Interfaces (complete)
+
+Effect : Developer can do behavior based development
+
+
+
+float Area(float radius);
+
+
+double Area(float length, float width);
+
+
+Area(10.21f); //
+
+Area(10.21f, 11.0f)

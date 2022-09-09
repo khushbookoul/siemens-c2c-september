@@ -1,0 +1,54 @@
+solid
+
+
+S ---> Single Responsibility
+    i) Every class should have only 1 purpose
+    ii) Every class should have 1 AND ONLY 1 reason to require a modification
+
+O ----> Open Close
+    Every class should be open for extension but closed for modification
+
+L  ------> Liskov's substitution
+    -----> Every operation that is possible on parent type (class) must also be applicable on a child class
+
+
+I------> Interface segregation
+    ----> A class must only implement the relevant interfaces and must not be forced to implement
+     non-related interfaces
+
+
+
+D -----> Dependency inversion
+        High level modules must not be dependent on low level modules but rather on an abstraction
+
+
+
+
+
+Question :    Design a solution which involves registration of vehicles
+
+possible subtypes : ICCar, ICBike, SolarPoweredCar, EVCar, EVBike
+
+Required functionalities : CalculateRtoTax ,   CalculateInsuranceAmount,
+                            ApplyForPuc
+
+
+
+
+
+
+
+
+
+Movie
+-------
+
+name
+id
+actors=[]
+release_data
+
+numberOfScreens
+
+
+-------
